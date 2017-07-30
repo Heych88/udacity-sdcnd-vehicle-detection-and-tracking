@@ -1,5 +1,6 @@
 # Vehicle Detection and Tracking
-Udacity Self-driving car nano degree project 5, Vehicle Detection and Tracking submission. This project uses two different forms of implementation.
+
+Object detection and tracking for a vehicles on-board camera using either an OpenCV method or the YOLO Darkflow Convolutional neural network (CNN) libruary. A video of the filter in action can be found [here](https://youtu.be/8O_-bWPyUX8). This is project 5 of the Udacity Self-driving car nano degree, Vehicle Detection and Tracking submission. This project uses two different forms of implementation.
 1. SVM classifier using HOG and color bin features.
 2. [Fast YOLO](https://arxiv.org/pdf/1612.08242.pdf) method using the python wrapper [darkflow](https://github.com/thtrieu/darkflow). The code is avalible on [github](https://github.com/thtrieu/darkflow).
 
