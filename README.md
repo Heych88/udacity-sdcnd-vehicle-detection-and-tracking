@@ -4,6 +4,10 @@ Object detection and tracking for a vehicles on-board camera using either an Ope
 1. SVM classifier using HOG and color bin features.
 2. [Fast YOLO](https://arxiv.org/pdf/1612.08242.pdf) method using the python wrapper [darkflow](https://github.com/thtrieu/darkflow). The code is avalible on [github](https://github.com/thtrieu/darkflow).
 
+## Writeup
+
+The [writeup.md](writeup.md) contains details of the code used in this project.
+
 ## Getting Started
 
 Download and unzip or clone this repository onto your local machine with
