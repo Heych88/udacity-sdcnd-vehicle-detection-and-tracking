@@ -4,6 +4,10 @@ Object detection and tracking for a vehicles on-board camera using either an Ope
 1. SVM classifier using HOG and color bin features.
 2. [Fast YOLO](https://arxiv.org/pdf/1612.08242.pdf) method using the python wrapper [darkflow](https://github.com/thtrieu/darkflow). The code is avalible on [github](https://github.com/thtrieu/darkflow).
 
+[//]: # (Image References)
+[image1]: ./output_images/YOLO_test1.jpg
+[image2]: ./output_images/objects_test1.jpg
+
 ## Writeup
 
 The [writeup.md](writeup.md) contains details of the code used in this project.
@@ -46,14 +50,14 @@ In the file `main.py`, set the variable `use_yolo = True`
 
 If all has been installed correctly, run `main.py` and the following image should appear.
 
-![image1](YOLO_test1.jpg)(./output_images/YOLO_test1.jpg)
+![YOLO_test1.jpg][image1]
 
 
 ## Running the tests
 
 Navigate to the directory of the repository in terminal and run `main.py` with `python3 main.py` and the following image should appear.
 
-![image2](objects_test1.jpg)(./output_images/objects_test1.jpg)
+![objects_test1.jpg][image2]
 
 
 ## Built With
