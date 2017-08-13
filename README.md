@@ -46,14 +46,14 @@ In the file `main.py`, set the variable `use_yolo = True`
 
 If all has been installed correctly, run `main.py` and the following image should appear.
 
-[![image1](YOLO_test1.jpg)](./output_images/YOLO_test1.jpg)
+![image1](YOLO_test1.jpg)(./output_images/YOLO_test1.jpg)
 
 
 ## Running the tests
 
 Navigate to the directory of the repository in terminal and run `main.py` with `python3 main.py` and the following image should appear.
 
-[![image2](objects_test1.jpg)](./output_images/objects_test1.jpg)
+![image2](objects_test1.jpg)(./output_images/objects_test1.jpg)
 
 
 ## Built With
