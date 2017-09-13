@@ -1,12 +1,16 @@
 # Vehicle Detection and Tracking
 
-Object detection and tracking for a vehicles on-board camera using either an OpenCV method or the YOLO Darkflow Convolutional neural network (CNN) libruary. A video of the filter in action can be found [here](https://youtu.be/8O_-bWPyUX8). This is project 5 of the Udacity Self-driving car nano degree, Vehicle Detection and Tracking submission. This project uses two different forms of implementation.
+Object detection and tracking for a vehicles on-board camera using either an OpenCV method or the YOLO Darkflow Convolutional neural network (CNN) libruary. This is project 5 of the Udacity Self-driving car nano degree, Vehicle Detection and Tracking submission. This project uses two different forms of implementation.
 1. SVM classifier using HOG and color bin features.
 2. [Fast YOLO](https://arxiv.org/pdf/1612.08242.pdf) method using the python wrapper [darkflow](https://github.com/thtrieu/darkflow). The code is avalible on [github](https://github.com/thtrieu/darkflow).
 
 [//]: # (Image References)
 [image1]: ./output_images/YOLO_test1.jpg
 [image2]: ./output_images/objects_test1.jpg
+
+A video of the object detection in action can be seen below.
+
+[![Object detection and tracking video](output_images/video.png)](https://youtu.be/8O_-bWPyUX8)
 
 ## Writeup
 
@@ -16,8 +20,8 @@ The [writeup.md](writeup.md) contains details of the code used in this project.
 
 Download and unzip or clone this repository onto your local machine with
 
-```
-git clone https://github.com/Heych88/udacity-sdcnd-vehicle-detection-and-tracking.git
+```sh
+$ git clone https://github.com/Heych88/udacity-sdcnd-vehicle-detection-and-tracking.git
 ```
 
 ### Prerequisites
@@ -27,11 +31,11 @@ This project requires python 3 and the following libraries installed
 * OpenCv
 * Tensorflow
 * numpy
-  * `pip3 install --user numpy`
+  * `$ pip3 install --user numpy`
 * sklearn
-  * `pip3 install --user scikit-learn`
+  * `$ pip3 install --user scikit-learn`
 * scipy
-  * `pip install --user scipy`
+  * `$ pip3 install --user scipy`
 
 
 ### Installing
@@ -53,9 +57,16 @@ If all has been installed correctly, run `main.py` and the following image shoul
 ![YOLO_test1.jpg][image1]
 
 
-## Running the tests
+## Running the Code
 
-Navigate to the directory of the repository in terminal and run `main.py` with `python3 main.py` and the following image should appear.
+Navigate to the directory of the repository in terminal and run `main.py`.
+
+```sh
+$ cd <local directory>/udacity-sdcnd-advanced--lane-finding
+$ python3 main.py
+```
+
+ The following image should appear.
 
 ![objects_test1.jpg][image2]
 
