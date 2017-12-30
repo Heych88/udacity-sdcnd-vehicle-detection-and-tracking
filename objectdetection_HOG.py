@@ -314,6 +314,24 @@ class object():
                        hog_channel=0, spatial_feat=True,
                        hist_feat=True, hog_feat=True,
                        vis=False, feature_vec=False):
+        # Searches a list of windows to extract features present in the window
+        # img : image for feature extraction
+        # windows : list of each windows bounding box pixel position
+        # clf : supervised classifier type
+        # scalar: column scalar for the classifier 
+        # color_space : image colour space to be converted too for feature extraction
+        # spatial_size : size of eachgrid box
+        # hist_bins : no. of groups for the color histogram features
+        # hist_range : min and max values for the color histogram
+        # orient : number of different orientations of the HOG 
+        # pix_per_cell : no. of pixels per cell
+        # cell_per_block : no. cells per block
+        # hog_channel : Which image channel to do the processing on
+        # spatial_feat : True => include the image spacial features
+        # hist_feat : True => include the image color histograme features
+        # hog_feat : True => include the image HOG features
+        # vis : True => will return an image of the HOG
+        # feature_vec : return HOG data as a features vector
 
         on_windows = []
         # Iterate over all windows in the list
