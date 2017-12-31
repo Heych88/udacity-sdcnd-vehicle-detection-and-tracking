@@ -124,7 +124,10 @@ class object():
         # Return thresholded map
         return heatmap
 
-    # Define a function to compute binned color features
+    # Define a function to compute binned colour features
+    # img : input image data to extract features from
+    # size : 2D array with the number of features to collect 
+    # return : features vector
     def bin_spatial(self, img, size=None):
 
         if size is None: size = self.spatial_size
@@ -133,13 +136,13 @@ class object():
         # Return the feature vector
         return features
 
-    # Define a function to compute color histogram features
+    # Define a function to compute colour histogram features
     def color_hist(self, img, nbins=None, bins_range=None):
 
         if nbins is None: nbins = self.hist_bins
         if bins_range is None: bins_range = self.hist_range
 
-        # Compute the histogram of the color channels separately
+        # Compute the histogram of the colour channels separately
         channel1_hist = np.histogram(img[:,:,0], bins=nbins, range=bins_range)
         channel2_hist = np.histogram(img[:,:,1], bins=nbins, range=bins_range)
         channel3_hist = np.histogram(img[:,:,2], bins=nbins, range=bins_range)
