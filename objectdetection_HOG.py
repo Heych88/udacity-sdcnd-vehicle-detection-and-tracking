@@ -124,7 +124,7 @@ class object():
         # Return thresholded map
         return heatmap
 
-    # Define a function to compute binned colour features
+    # Computes the images spatial binned colour features
     # img : input image data to extract features from
     # size : 2D array with the number of features to collect 
     # return : features vector
@@ -136,7 +136,11 @@ class object():
         # Return the feature vector
         return features
 
-    # Define a function to compute colour histogram features
+    # Computes the images colour histogram
+    # img : input image data to extract features from
+    # bins : number of bins to group colour values into
+    # bin_range : The lower and upper value limits to be included in the bins  
+    # return : Return the individual histograms, bin_centers and feature vector
     def color_hist(self, img, nbins=None, bins_range=None):
 
         if nbins is None: nbins = self.hist_bins
