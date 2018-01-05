@@ -14,9 +14,9 @@ A video of the object detection in action can be seen below.
 
 [![Object detection and tracking video](output_images/video.png)](https://youtu.be/8O_-bWPyUX8)
 
-## Writeup
+## Project website
 
-The [writeup.md](writeup.md) contains details of the code used in this project.
+This repository has an accompanying project page, contains the theory and details behind the code. It can be found [here](https://www.haidynmcleod.com/object-detection).
 
 ## Getting Started
 
